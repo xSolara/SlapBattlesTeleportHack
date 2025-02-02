@@ -97,36 +97,57 @@ TextButton7.TextScaled = true
 
 TextButton1.MouseButton1Click:Connect(function()
 rootpart.CFrame = Sakura1
+wait(0.1)
+Humanoid:MoveTo(rootpart.CFrame)
+Humanoid.MoveToFinished:wait()
 
 end)
 
 TextButton2.MouseButton1Click:Connect(function()
 rootpart.CFrame = Sakura2
+wait(0.1)
+Humanoid:MoveTo(rootpart.CFrame)
+Humanoid.MoveToFinished:wait()
 
 end)
 
 TextButton3.MouseButton1Click:Connect(function()
 rootpart.CFrame = Sakura3
+wait(0.1)
+Humanoid:MoveTo(rootpart.CFrame)
+Humanoid.MoveToFinished:wait()
 
 end)
 
 TextButton4.MouseButton1Click:Connect(function()
 rootpart.CFrame = Slapple
+wait(0.1)
+Humanoid:MoveTo(rootpart.CFrame)
+Humanoid.MoveToFinished:wait()
 
 end)
 
 TextButton5.MouseButton1Click:Connect(function()
 rootpart.CFrame = HelpCF
+wait(0.1)
+Humanoid:MoveTo(rootpart.CFrame)
+Humanoid.MoveToFinished:wait()
 
 end)
 
 TextButton6.MouseButton1Click:Connect(function()
 rootpart.CFrame = Moai
+wait(0.1)
+Humanoid:MoveTo(rootpart.CFrame)
+Humanoid.MoveToFinished:wait()
 
 end)
 
 TextButton7.MouseButton1Click:Connect(function()
 rootpart.CFrame = Castle
+wait(0.1)
+Humanoid:MoveTo(rootpart.CFrame)
+Humanoid.MoveToFinished:wait()
 
 end)
 
