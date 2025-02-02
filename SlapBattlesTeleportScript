@@ -1,0 +1,127 @@
+-- Ölünce Butonlar Yok olur Tekrar Execute yap Ölünce
+-- If you die the buttons disappears Execute Again when you are dead
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character
+local Humanoid = chr:FindFirstChild("Humanoid")
+local rootpart = chr:FindFirstChild("HumanoidRootPart")
+local Sakura1 = CFrame.new(0.894146323, -5.14444208, -199.356827, 0.951998055, -5.61870159e-08, -0.306104124, 2.88256707e-08, 1, -9.39060669e-08, 0.306104124, 8.05747362e-08, 0.951998055)
+local Sakura2 = CFrame.new(0.894146323, -5.14444208, -199.356827, 0.951998055, 5.04233189e-09, -0.306104124, -2.58684274e-09, 1, 8.42740189e-09, 0.306104124, -7.23102689e-09, 0.951998055)
+local Sakura3 = CFrame.new(-216.255859, -5.27817488, 17.8947601, 0.0975929052, -1.21476784e-08, -0.995226443, 3.3262193e-08, 1, -8.94422048e-09, 0.995226443, -3.22305205e-08, 0.0975929052)
+local Slapple = CFrame.new(-399.250488, 50.764225, -21.7751598, 0.964811206, 1.17938925e-09, -0.262943566, -2.48041054e-08, 1, -8.65276562e-08, 0.262943566, 9.00049315e-08, 0.964811206)
+local HelpCF = CFrame.new(-427.152496, 106.181343, -28.9294376, -0.0836752579, 6.13973015e-08, -0.996493101, -6.81364369e-08, 1, 6.73347742e-08, 0.996493101, 7.35317442e-08, -0.0836752579)
+local Moai = CFrame.new(229.919861, -15.7160635, -0.335561216, -0.221550748, -4.03820666e-09, 0.975148857, 9.04262709e-09, 1, 6.19557472e-09, -0.975148857, 1.01905417e-08, -0.221550748)
+local Castle = CFrame.new(258.836548, 33.6813431, 156.759842, -0.518885136, -5.72970009e-08, -0.854843974, -1.36246063e-08, 1, -5.87562141e-08, 0.854843974, -1.88408151e-08, -0.518885136)
+
+local ParentGui = game.CoreGui
+local ScreenGui = Instance.new("ScreenGui")
+local TextButton1 = Instance.new("TextButton")
+local TextButton2 = Instance.new("TextButton")
+local TextButton3 = Instance.new("TextButton")
+local TextButton4 = Instance.new("TextButton")
+local TextButton5 = Instance.new("TextButton")
+local TextButton6 = Instance.new("TextButton")
+local TextButton7 = Instance.new("TextButton")
+
+ScreenGui.Parent = ParentGui
+
+TextButton1.Name = "T1"
+TextButton2.Name = "T2"
+TextButton3.Name = "T3"
+TextButton4.Name = "T4"
+TextButton5.Name = "T5"
+TextButton6.Name = "T6"
+TextButton7.Name = "T7"
+
+TextButton1.Parent = ScreenGui
+TextButton2.Parent = ScreenGui
+TextButton3.Parent = ScreenGui
+TextButton4.Parent = ScreenGui
+TextButton5.Parent = ScreenGui
+TextButton6.Parent = ScreenGui
+TextButton7.Parent = ScreenGui
+
+TextButton1:TweenPosition(UDim2.new(0,144,0,50),"Out","Sine",1)
+TextButton1:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
+TextButton1.BackgroundTransparency = 0.6
+
+TextButton2:TweenPosition(UDim2.new(0,50,0,50),"Out","Sine",1)
+TextButton2:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
+TextButton2.BackgroundTransparency = 0.6
+
+TextButton3:TweenPosition(UDim2.new(0,230,0,50),"Out","Sine",1)
+TextButton3:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
+TextButton3.BackgroundTransparency = 0.6
+
+TextButton4:TweenPosition(UDim2.new(0,320,0,50),"Out","Sine",1)
+TextButton4:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
+TextButton4.BackgroundTransparency = 0.6
+
+TextButton5:TweenPosition(UDim2.new(0,420,0,50),"Out","Sine",1)
+TextButton5:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
+TextButton5.BackgroundTransparency = 0.6
+
+TextButton6:TweenPosition(UDim2.new(0,520,0,50),"Out","Sine",1)
+TextButton6:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
+TextButton6.BackgroundTransparency = 0.6
+
+TextButton7:TweenPosition(UDim2.new(0,620,0,50),"Out","Sine",1)
+TextButton7:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
+TextButton7.BackgroundTransparency = 0.6
+
+
+TextButton1.Text = "Sakura 1"
+TextButton2.Text = "Sakura 2"
+TextButton3.Text = "Sakura 3"
+TextButton4.Text = "Slapple"
+TextButton5.Text = "HelpCF"
+TextButton6.Text = "Moai"
+TextButton7.Text = "Castle"
+
+
+TextButton1.TextScaled = true
+TextButton2.TextScaled = true
+
+
+TextButton1.MouseButton1Click:Connect(function()
+rootpart.CFrame = Sakura1
+
+end)
+
+TextButton2.MouseButton1Click:Connect(function()
+rootpart.CFrame = Sakura2
+
+end)
+
+TextButton3.MouseButton1Click:Connect(function()
+rootpart.CFrame = Sakura3
+
+end)
+
+TextButton4.MouseButton1Click:Connect(function()
+rootpart.CFrame = Slapple
+
+end)
+
+TextButton5.MouseButton1Click:Connect(function()
+rootpart.CFrame = HelpCF
+
+end)
+
+TextButton6.MouseButton1Click:Connect(function()
+rootpart.CFrame = Moai
+
+end)
+
+TextButton7.MouseButton1Click:Connect(function()
+rootpart.CFrame = Castle
+
+end)
+
+while wait(1) do
+if Humanoid.Health == 0 then
+ScreenGui:Destroy()
+end
+end
+-- Ölünce Butonlar Yok Olur Tekrar Execute yap Ölünce
+-- If you die the buttons disappears Execute Again when you are dead
