@@ -81,6 +81,12 @@ TextButton7.Text = "Castle"
 
 TextButton1.TextScaled = true
 TextButton2.TextScaled = true
+TextButton3.TextScaled = true
+TextButton4.TextScaled = true
+TextButton5.TextScaled = true
+TextButton6.TextScaled = true
+TextButton7.TextScaled = true
+
 
 
 TextButton1.MouseButton1Click:Connect(function()
