@@ -43,38 +43,38 @@ TextButton7.Parent = ScreenGui
 
 TextButton1:TweenPosition(UDim2.new(0,144,0,50),"Out","Sine",1)
 TextButton1:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
-TextButton1.BackgroundTransparency = 0.7
-TextButton1.TextTransparency = 0.4
+TextButton1.BackgroundTransparency = 0.8
+TextButton1.TextTransparency = 0.6
 
 TextButton2:TweenPosition(UDim2.new(0,50,0,50),"Out","Sine",1)
 TextButton2:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
-TextButton2.BackgroundTransparency = 0.7
-TextButton2.TextTransparency = 0.4
+TextButton2.BackgroundTransparency = 0.8
+TextButton2.TextTransparency = 0.6
 
 TextButton3:TweenPosition(UDim2.new(0,230,0,50),"Out","Sine",1)
 TextButton3:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
-TextButton3.BackgroundTransparency = 0.7
-TextButton3.TextTransparency = 0.4
+TextButton3.BackgroundTransparency = 0.8
+TextButton3.TextTransparency = 0.6
 
 TextButton4:TweenPosition(UDim2.new(0,320,0,50),"Out","Sine",1)
 TextButton4:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
-TextButton4.BackgroundTransparency = 0.7
-TextButton4.TextTransparency = 0.4
+TextButton4.BackgroundTransparency = 0.8
+TextButton4.TextTransparency = 0.6
 
 TextButton5:TweenPosition(UDim2.new(0,420,0,50),"Out","Sine",1)
 TextButton5:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
-TextButton5.BackgroundTransparency = 0.7
-TextButton5.TextTransparency = 0.4
+TextButton5.BackgroundTransparency = 0.8
+TextButton5.TextTransparency = 0.6
 
 TextButton6:TweenPosition(UDim2.new(0,520,0,50),"Out","Sine",1)
 TextButton6:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
-TextButton6.BackgroundTransparency = 0.7
-TextButton6.TextTransparency = 0.4
+TextButton6.BackgroundTransparency = 0.8
+TextButton6.TextTransparency = 0.6
 
 TextButton7:TweenPosition(UDim2.new(0,620,0,50),"Out","Sine",1)
 TextButton7:TweenSize(UDim2.new(0,70,0,70),"Out","Sine",1)
-TextButton7.BackgroundTransparency = 0.7
-TextButton7.TextTransparency = 0.4
+TextButton7.BackgroundTransparency = 0.8
+TextButton7.TextTransparency = 0.6
 
 TextButton1.Text = "Sakura 1"
 TextButton2.Text = "Sakura 2"
